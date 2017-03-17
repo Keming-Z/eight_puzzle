@@ -3,11 +3,6 @@
 import time
 
 class Timer:
-    """A class whose instances store the difference between two moments in time.
-    To time something, an instance's start() method must be called, followed by
-    a call to its end() method. Each instance also has a name that is included
-    when the object's __repr__() is called.
-    """
     def __init__(self, name=''):
         self.name = name
         self.start_time = None
